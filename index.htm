@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sadan Awil | Portfolio</title>
+  <link rel="stylesheet" href="stylee.css">
+  <link rel="stylesheet" href="model.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2 class="logo">Sadan Awil</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#certificates">Certificates</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HOME -->
+<section id="home" class="hero">
+  <h1>Hello, I'm <span>Sadan Roble Awil</span></h1>
+  <p>3rd Year Software Engineering Student</p>
+  <p>Arba Minch University</p>
+  <p>let me make something with beauty and shine</p>
+  <button onclick="scrollToContact()">Contact Me</button>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <div class="about-container">
+    <img src="photo_2024-04-18_19-15-11.jpg" alt="Sadan Awil Profile Photo">
+  <p>
+  I am a passionate Software Engineering student at Arba Minch University,
+  currently in my 3rd year. I enjoy building and learning
+  modern technologies. I focus on both frontend and backend development,
+  I  focus on my learning  as student and try always be hardworker ,
+  that discover something new  i hope near future be  someone benifits ,
+  his community and try solve their problems and ,
+  generate new funtional technologies .
+  </p>
+
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="gray">
+  <h2>Skills</h2>
+
+  <div class="skills-container">
+    <div class="skill-box">
+      <h3>Frontend</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+
+     
+      </ul>
+    </div>
+
+    <div class="skill-box">
+      <h3>Backend</h3>
+      <ul>
+        <li>Python</li>
+        <li>Node.js</li>
+        <li>Database (MySQL)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="projects-grid">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="imagee.png" alt="Blood Type Information">
+
+      <div class="project-content">
+        <h3>Blood Type Information System</h3>
+        <p>
+          A system that collects and manages blood group information for donors
+          using HTML, CSS, JavaScript, and database concepts.
+        </p>
+
+        <button onclick="openModal(
+  'Blood Type Information System',
+  'A system that collects and manages blood group information for donors. It helps organize donor records efficiently.',
+  ['HTML', 'CSS', 'JavaScript', 'Database']
+)">
+  See detail
+</button>
+
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="image.png" alt="Service Website">
+
+      <div class="project-content">
+        <h3>Service Information Website</h3>
+        <p>
+          A web application that provides organized service-related information
+          in an easy-to-access and user-friendly format.
+        </p>
+
+        <button onclick="openModal(
+  'Service Information Website',
+  'A web application that provides organized service-related information in a clean and user-friendly interface.',
+  ['HTML', 'CSS', 'JavaScript']
+)">
+  See detail
+</button>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- CERTIFICATES -->
+<section id="certificates" class="gray">
+  <h2>Certificates</h2>
+  <p>Certificates will be added soon.</p>
+
+  <!-- Example (you will add images later)
+  <img src="certificates/cert1.jpg" alt="Certificate">
+  -->
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact Me</h2>
+
+  <p><strong>Email:</strong> sadaancawil1313@gmail.com</p>
+  <p><strong>Phone:</strong> +251 0952164374</p>
+  <p><strong>Location:</strong> Jigjiga, Ethiopia</p>
+
+  <form>
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Comment" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Made by Sadan Awil | Built using HTML, CSS & JavaScript</p>
+</footer>
+
+<script src="script.js"></script>
+<script src="sadan.js"></script>
+
+</body>
+</html>
